@@ -7,6 +7,10 @@ const entrevistadoModel = new schema({
     numero: { type: Number, required: true},
     foto: { type: String },
     bairro : {type : String, required : true},
+    peso : {type : String, required : true},
+    altura : {type : String, required : true},
+    peso20 : {type : String, required : true},
+    escolaridade : {type : String, required : true},
     idade: { type: String, required: true},
     localizacao : {
         latitude : Number,
